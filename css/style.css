@@ -1,0 +1,319 @@
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #F2F2F2;
+}
+
+/* navgation start */
+
+#my-navigation{
+width: 100%;
+background: none;
+border: none;
+position:absolute;
+z-index: 1;
+
+}
+
+
+#my-navigation .navbar-toggle{
+display: block;
+border: 0;
+}
+/*  */
+#my-navigation  .navbar-toggle:hover{
+
+cursor:pointer;
+background:none
+}
+#my-navigation .navbar-header{
+
+float: none;
+}
+#my-navigation .icon-bar-left{
+float:left;
+}
+
+#my-navigation .icon-bar{
+background-color: #ffff;
+
+
+}
+#my-navigation .icon-right{
+float: right;
+padding-left: 10px;
+position: relative;
+top: -3px;
+color: #fafafa;
+}
+#my-navigation .navbar-right{
+float: left !important;
+
+}
+#my-navigation .navbar-brand, #my-navigation ul li a{
+color: #ffff;
+
+}
+
+
+/* carousel */
+
+
+.my-container{
+padding: 0;
+color: #fafafa;
+}
+
+.carousel .item{
+width: 100vw;
+height:100vh;
+background-image: url("../img/slide01.jpg");
+background-size: cover;
+}
+
+.carousel .item-2{
+background-image: url("../img/slide02.jpg");
+
+}
+.carousel .item-3{
+
+background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item-4{
+background-image: url("../img/slide04.jpg");
+
+}
+
+.carousel .item-5{
+
+background-image: url("../img/slide05.jpg");
+}
+/* banner-text */
+
+.banner-text{
+position: absolute;
+z-index: 2;
+width: 40%;
+top: 39%;
+left: 29%;
+text-align: center;
+}
+.banner-text hr{
+width: 40%;
+
+}
+.banner-text p{
+letter-spacing: 1px;
+font-weight: 200;
+}
+.banner-text h1{
+
+font-size: 80px;
+font-weight: 300;
+}
+
+/* 2-section */
+
+
+.two-section{
+padding: 80px 0;
+
+
+}
+
+.two-section .right{
+background-color: #fafafa;
+width: 95%;
+text-align: center;
+
+}
+
+.two-section .left{
+background-color: #fafafa;
+width: 95%;
+text-align: center;
+
+}
+.two-section .left{
+margin-left: 5%;
+}
+
+.two-section img{
+width: 100%;
+
+
+}
+
+
+
+.two-section h6 {
+text-align: center;
+letter-spacing: 3px;
+margin-top: 50px;
+color: rgb(168, 166, 166);
+font-weight: 200;
+}
+.two-section h3{
+text-align: center;
+margin-top: 15px;
+
+font-weight: 400;
+}
+.two-section hr{
+width: 40%;
+color: gray;
+margin-top: 5px;
+height: 0.5px;
+margin: 0 auto;
+}
+.two-section p{
+padding: 25px 30px;
+color: rgb(153, 152, 152);
+line-height: 25px;
+text-align: left;
+}
+
+.white-button{
+background-color: #fafafa;
+width: 120px;
+height: 40px;
+border: none;
+font-size: 13px;
+border: 1px solid gray;
+/* margin-top: 10px; */
+margin-bottom: 40px;
+}
+.full-wrapper{
+background-image: url("../img/bg.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+text-align: center;
+padding: 90px 0;
+color:#fff;
+
+}
+
+.full-wrapper p{
+letter-spacing: 2px;
+font-weight: 100;
+}
+
+ .full-wrapper hr{
+width:45%;
+
+}
+
+
+.four-section-img .text hr{
+ background-color: rgb(175, 172, 172);
+
+}
+
+
+.full-wrapper h4{
+font-size: 25px;
+font-weight: 300;
+}
+
+/* third -wrapper */
+
+.four-section-img{
+text-align: center;
+padding: 80px 0;
+}
+
+.four-section-img h4{
+margin-bottom: 50px;
+font-size: 25px;
+font-weight: 300;
+}
+.four-section-img p{
+letter-spacing: 2px;
+font-weight: 100;
+color: gray;
+}
+
+.four-section-img hr{
+width: 35%;
+
+
+}
+
+
+.four-section-img img{
+width: 95%;
+margin-bottom: 10%;
+border: 10px solid#ffff;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function:ease-in-out;
+transition-delay: 1s;
+}
+
+.four-section-img img:hover{
+/* transform: translate(400px,400px); */
+/* transform:rotate(100deg); */
+/* transform:skew(1); */
+/* transform:scale(.9); */
+/* transform:skew(2) */
+transform: matrix();
+
+
+}
+
+.four-section-img .left{
+margin-left: 5%;
+
+}
+
+
+/* footer */
+
+.footer{
+background-color: black;
+color:gray;
+padding: 40px 0;
+text-align: center;
+}
+.footer i{
+
+/* margin-bottom: 10px; */
+padding: 20px 7px;
+font-size: 20px;
+}
+
+@media only screen and (max-width:750px){
+
+.my-collapse{
+
+padding-right: 15px;
+padding-left: 15px;
+border-top:1px solid white;
+}
+
+.two-section .left, .two-section .right{
+width: 100%;
+
+}
+.two-section .left{
+margin: 0;
+
+}
+}
+@media only screen and (max-width:990px){  
+
+.four-section img{
+width: 100%;
+}
+
+.four-section .left{
+margin-left: 0;
+
+}
+
+.footer{
+ padding:10px 4px ;
+}
+
+}
